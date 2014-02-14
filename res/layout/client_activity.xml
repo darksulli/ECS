@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:paddingTop="10sp"
+    tools:context=".ClientActivity" >
+
+    <TextView
+        android:id="@+id/tvClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/client"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btRetour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/retour"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btSauvegarder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btRetour"
+        android:layout_alignBottom="@+id/btRetour"
+        android:layout_alignParentRight="true"
+        android:text="@string/sauvegarde"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/tbPrenomNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btRetour"
+        android:layout_below="@+id/tvClient"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="87dp"
+        android:ems="10"
+        android:hint="@string/client_prenom_nom"
+        android:textSize="40sp"
+        android:inputType="textPersonName" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/tvAdresse"
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:layout_below="@+id/tbPrenomNom"
+        android:layout_marginRight="108dp"
+        android:layout_marginTop="77dp"
+        android:layout_toLeftOf="@+id/btSauvegarder"
+        android:ems="10"
+        android:hint="@string/client_adresse"
+        android:inputType="textPostalAddress"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/tbVille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tbPrenomNom"
+        android:layout_alignBottom="@+id/tbPrenomNom"
+        android:layout_marginLeft="33dp"
+        android:layout_toRightOf="@+id/tvClient"
+        android:ems="10"
+        android:hint="@string/client_ville"
+        android:textSize="40sp" >
+
+        <requestFocus />
+    </EditText>
+    
+</RelativeLayout>

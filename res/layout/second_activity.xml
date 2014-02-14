@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:paddingTop="10sp"
+    tools:context=".SecondActivity" >
+
+    <TextView
+        android:id="@+id/tvDomaine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/domaine"
+        android:text="@string/domaine"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btElectrique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="87dp"
+        android:text="@string/electrique"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btSanitaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvDomaine"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="64dp"
+        android:text="@string/sanitaire"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btECS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="86dp"
+        android:text="@string/ecs"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btChauffage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btSanitaire"
+        android:layout_alignBottom="@+id/btSanitaire"
+        android:layout_marginRight="119dp"
+        android:layout_toLeftOf="@+id/btSanitaire"
+        android:text="@string/chauffage"
+        android:textSize="40sp" />
+
+</RelativeLayout>

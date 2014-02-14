@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+    android:paddingTop="10sp"
+    tools:context=".SanitaireRobinetRemplacerActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/bouton_sanitaire_robinet_remplacer"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btRetour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/retour"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btSuivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btRetour"
+        android:layout_alignBottom="@+id/btRetour"
+        android:layout_alignParentRight="true"
+        android:text="@string/suivant"
+        android:textSize="40sp" />
+    
+    <RadioGroup
+        android:id="@+id/rdgRobinetRemplacerType2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btRetour"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rdRobinetRemplacerMelangeur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="84dp"
+            android:text="@string/radio_sanitaire_robinet_remplacer_melangeur"
+            android:textSize="40sp" />
+
+        <RadioButton
+            android:id="@+id/rdRobinetRemplacerMitigeur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="79dp"
+            android:text="@string/radio_sanitaire_robinet_remplacer_mitigeur"
+            android:textSize="40sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rdgRobinetRemplacerType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rdRobinetRemplacerExtractible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_sanitaire_robinet_remplacer_extractible"
+            android:textSize="40sp" />
+
+        <RadioButton
+            android:id="@+id/rdRobinetRemplacerColdeCygne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="@string/radio_sanitaire_robinet_remplacer_coldecygne"
+            android:textSize="40sp" />
+
+        <RadioButton
+            android:id="@+id/rdRobinetRemplacerBas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="@string/radio_sanitaire_robinet_remplacer_bas"
+            android:textSize="40sp" />
+    </RadioGroup>
+
+</RelativeLayout>

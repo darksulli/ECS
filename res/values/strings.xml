@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ECS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="continuer">Continuer</string>
+    <string name="version">0.1</string>
+    <string name="welcome">Bienvenue sur ECS !</string>
+    <string name="chauffage">Chauffage</string>
+    <string name="electrique">Electrique</string>
+    <string name="ecs">ECS</string>
+    <string name="sanitaire">Sanitaire</string>
+    <string name="domaine">Choix du domaine de travail</string>
+    <string name="retour">Retour</string>
+    <string name="suivant">Suivant</string><string name="bouton_sanitaire_robinet">Robinet</string>
+    
+    <string name="sanitaire_robinet_ajouter">Ajouter</string>
+    <string name="sanitaire_robinet_remplacer">Remplacer</string>
+    <string name="sanitaire_robinet">Sanitaire -&gt; Robinet</string>
+    <string name="bouton_sanitaire_robinet_remplacer">Sanitaire -&gt; Robinet -&gt; Remplacer</string>
+    <string name="radio_sanitaire_robinet_remplacer_coldecygne">Col de cygne</string>
+    <string name="radio_sanitaire_robinet_remplacer_bas">Bas</string>
+    <string name="radio_sanitaire_robinet_remplacer_extractible">Extractible</string>
+    <string name="radio_sanitaire_robinet_remplacer_melangeur">Mélangeur</string>
+    <string name="radio_sanitaire_robinet_remplacer_mitigeur">Mitigeur</string>
+    <string name="sanitaire_robinet_remplacer_canalisation">Sanitaire -&gt; Robinet -&gt; Remplacer -&gt; Canalisation</string>
+    <string name="client">Client</string>
+    <string name="sauvegarde">Sauvegarder</string>
+    <string name="client_prenom_nom">Prénom, nom</string>
+    <string name="client_ville">Ville</string>
+    <string name="client_adresse">Adresse</string>
+    <string name="sanitaire_robinet_remplacer_canalisation_diametre_10">10</string>
+    <string name="sanitaire_robinet_remplacer_canalisation_diametre_8">8</string>
+    <string name="santaire_robinet_remplacer_canalisation_diametre_12">12</string>
+    <string name="santaire_robinet_remplacer_canalisation_type_demontable">Démontable</string>
+    <string name="santaire_robinet_remplacer_canalisation_type_soude">Soudé</string>
+
+</resources>
